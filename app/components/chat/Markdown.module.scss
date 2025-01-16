@@ -1,4 +1,4 @@
-// console.log ("$font-mono: ui-monospace, 'Fira Code', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-mono: ui-monospace, 'Fira Code', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 $code-font-size: 13px;
 
 @mixin not-inside-actions {
@@ -8,7 +8,8 @@ $code-font-size: 13px;
 }
 
 .MarkdownContent {
-  line-height: 1.6;
+  // Все стили внутри этого блока можно закомментировать, чтобы они не работали
+  /* line-height: 1.6;
   color: var(--bolt-elements-textPrimary);
 
   > *:not(:last-child) {
@@ -167,6 +168,5 @@ $code-font-size: 13px;
     tr:nth-child(2n) {
       background-color: #f6f8fa;
     }
-  }
+  } */
 }
-");
